@@ -2,7 +2,7 @@
 In my linosogames repo, it is just basic html, javascript with some css for styling. To make it better, I started all over again with react.
 
 ## Demo
-You can try the template live at: https://heimatbrot.github.io/ReactApp_Template
+You can try the template live at: https://heimatbrot.github.io/linosogames_app
 
 ## Getting Started
 To get a local copy up and running, follow these steps:
