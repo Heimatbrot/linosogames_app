@@ -1,5 +1,5 @@
-# ReactApp_Template
-This is a basic setup for a React App. It was meant for me to be able to set it up quickly but please feel free to use it for your own.
+# linosogames_app
+In my linosogames repo, it is just basic html, javascript with some css for styling. To make it better, I started all over again with react.
 
 ## Demo
 You can try the template live at: https://heimatbrot.github.io/ReactApp_Template
