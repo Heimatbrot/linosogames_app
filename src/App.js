@@ -21,10 +21,14 @@ function App() {
     setActivePage(pageId);
   };
 
+  const handleTitleClick = () => {
+    handleClick(pages[0].id);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <h1 id="apptitle">Linosogames</h1>
+        <h1 id="apptitle" onClick={handleTitleClick}>Linosogames</h1>
       </header>
       <nav>
         {pages.map((page) =>
