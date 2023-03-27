@@ -23,9 +23,9 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: 1px solid #f1ede3;
+    background-color: 1px solid #d0c6ac;
     box-sizing: border-box;
-    background-color: #f1ede3;
+    background-color: #d0c6ac;
   }
 
 .links {
