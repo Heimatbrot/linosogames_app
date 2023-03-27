@@ -1,7 +1,7 @@
 {
-  "name": "reactapp_template",
+  "name": "linosogames_app",
   "version": "0.1.0",
-  "homepage": "https://Heimatbrot.github.io/ReactApp_Template",
+  "homepage": "https://Heimatbrot.github.io/linosogames_app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -45,11 +45,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Heimatbrot/ReactApp_Template.git"
+    "url": "git+https://github.com/Heimatbrot/linosogames_app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Heimatbrot/ReactApp_Template/issues"
+    "url": "https://github.com/Heimatbrot/linosogames_app/issues"
   }
 }

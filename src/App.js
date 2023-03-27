@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 id="apptitle">ReactApp_Template</h1>
+        <h1 id="apptitle">Linosogames</h1>
       </header>
       <nav>
         {pages.map((page) =>
