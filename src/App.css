@@ -23,9 +23,9 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: 1px solid #b3c1b1;
+    background-color: 1px solid #f1ede3;
     box-sizing: border-box;
-    background-color: #b3c1b1;
+    background-color: #f1ede3;
   }
 
 .links {
@@ -38,10 +38,10 @@
     padding-top: 15px;
     padding-bottom: 38px;
     border: none;
-    background-color: #b3c1b1;
+    background-color: #d0c6ac;
     font-size: 150%;
     font-weight: bold;
-    color: #333;
+    color: #d0c6ac;
     cursor: pointer;
 }
 
@@ -50,5 +50,5 @@
 }
 
 .links:hover {
-    color: #eeeeee;
+    color: #f1ede3;
 }

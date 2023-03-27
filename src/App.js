@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Page1 from './components/Page1';           // import the pages from components
 import Page2 from './components/Page2';
 import Page3 from './components/Page3';
+import Page4 from './components/Page4';
+import Page5 from './components/Page5';
 import './App.css';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     { id: 1, component: <Page1 /> },              // add pages, done!
     { id: 2, component: <Page2 /> },
     { id: 3, component: <Page3 /> },
+    { id: 4, component: <Page4 /> },
+    { id: 5, component: <Page5 /> },
   ];
 
   const [activePage, setActivePage] = useState(pages[0].id);
