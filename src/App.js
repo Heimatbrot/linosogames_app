@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 id="apptitle" onClick={handleTitleClick}>Linosogames</h1>
+        <h1 id="apptitle" onClick={handleTitleClick}>Linoso Games</h1>
       </header>
       <nav>
         {pages.map((page) =>
