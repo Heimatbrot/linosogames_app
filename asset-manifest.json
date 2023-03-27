@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/linosogames_app/static/css/main.d389fecd.css",
+    "main.css": "/linosogames_app/static/css/main.691fc17f.css",
     "main.js": "/linosogames_app/static/js/main.4d23e6ed.js",
     "static/js/787.8b71ee2f.chunk.js": "/linosogames_app/static/js/787.8b71ee2f.chunk.js",
     "index.html": "/linosogames_app/index.html",
-    "main.d389fecd.css.map": "/linosogames_app/static/css/main.d389fecd.css.map",
+    "main.691fc17f.css.map": "/linosogames_app/static/css/main.691fc17f.css.map",
     "main.4d23e6ed.js.map": "/linosogames_app/static/js/main.4d23e6ed.js.map",
     "787.8b71ee2f.chunk.js.map": "/linosogames_app/static/js/787.8b71ee2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d389fecd.css",
+    "static/css/main.691fc17f.css",
     "static/js/main.4d23e6ed.js"
   ]
 }
