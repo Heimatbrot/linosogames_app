@@ -4,6 +4,7 @@ import Page2 from './components/Page2';
 import Page3 from './components/Page3';
 import Page4 from './components/Page4';
 import Page5 from './components/Page5';
+import Page6 from './components/Page6';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     { id: 3, component: <Page3 /> },
     { id: 4, component: <Page4 /> },
     { id: 5, component: <Page5 /> },
+    { id: 6, component: <Page6 /> },
   ];
 
   const [activePage, setActivePage] = useState(pages[0].id);
