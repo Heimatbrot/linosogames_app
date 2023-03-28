@@ -14,16 +14,20 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 10px;
-  color:#f8f0dc;
+  color:#f1ede3;
   font-size: x-large;
   font-family: 'patua_oneregular';
   -webkit-text-stroke: 1px #d0c6ac;
   }
 
 .intro_caption{
-  -webkit-text-stroke: 1px #d0c6ac;
+  -webkit-text-stroke: 0.5px #d0c6ac;
   font-size: large;
 }
+
+a{
+    color: #d0c6ac;
+  }
 
 .credits{
     text-align: right;

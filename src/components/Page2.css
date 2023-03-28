@@ -17,7 +17,11 @@
   color:#f8f0dc;
   font-size: x-large;
   font-family: 'patua_oneregular';
-  -webkit-text-stroke: 1px #d0c6ac;
+  -webkit-text-stroke: 1px #f1ede3;
+}
+.winner_caption{
+  -webkit-text-stroke: 0.5px #f1ede3;
+  font-size: small;
 }
 
 .credits{
@@ -25,6 +29,7 @@
     padding-right: 10px;
     -webkit-text-stroke: 0px #d0c6ac;
     font-size: xx-small;
+    color: #f1ede3
 }
 
 #logogif {

@@ -6,7 +6,7 @@ function Page2() {
     <div id="content">
       <section class="intro_winner">
         <h1>DIE GEWINNER</h1>
-        <p class="intro_caption">Die Gewinner der offiziellen Linoso Games</p>
+        <p class="winner_caption">Die Gewinner der offiziellen Linoso Games</p>
         <p class="credits">Bild von <a href="https://www.freepik.com/free-photo/front-view-kids-playing-with-potato-bags_5103816.htm#query=sackh%C3%BCpfen%20kinder&position=33&from_view=search&track=ais">Freepik</a></p>
       </section>
 
