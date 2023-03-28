@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/linosogames_app/static/css/main.f059176c.css",
+    "main.css": "/linosogames_app/static/css/main.8e9a676e.css",
     "main.js": "/linosogames_app/static/js/main.3b77f77b.js",
     "static/js/787.8b71ee2f.chunk.js": "/linosogames_app/static/js/787.8b71ee2f.chunk.js",
     "static/media/sackhuepfen.png": "/linosogames_app/static/media/sackhuepfen.1498faee8f2189142ad0.png",
@@ -16,12 +16,12 @@
     "static/media/icon3.png": "/linosogames_app/static/media/icon3.fd8cf9dcb5cd5ea946e0.png",
     "static/media/icon5.png": "/linosogames_app/static/media/icon5.aed999091c1829cced6f.png",
     "index.html": "/linosogames_app/index.html",
-    "main.f059176c.css.map": "/linosogames_app/static/css/main.f059176c.css.map",
+    "main.8e9a676e.css.map": "/linosogames_app/static/css/main.8e9a676e.css.map",
     "main.3b77f77b.js.map": "/linosogames_app/static/js/main.3b77f77b.js.map",
     "787.8b71ee2f.chunk.js.map": "/linosogames_app/static/js/787.8b71ee2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f059176c.css",
+    "static/css/main.8e9a676e.css",
     "static/js/main.3b77f77b.js"
   ]
 }
