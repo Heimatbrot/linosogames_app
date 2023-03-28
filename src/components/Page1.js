@@ -8,6 +8,7 @@ function Page1() {
       <section class="intro_index">
           <h1>DIE LINOSO GAMES</h1>
           <p class="intro_caption">SINCE 2022</p>
+          <p class="credits">Bild von <a href="https://www.freepik.com/free-photo/front-view-kids-playing-with-potato-bags_5103816.htm#query=sackh%C3%BCpfen%20kinder&position=33&from_view=search&track=ais">Freepik</a></p>
       </section>
       <img src={linosogames_gif_v2} alt="Linoso Games" id="logogif"/>
       <h3>DIE ERSTEN SPIELE</h3>

@@ -25,6 +25,13 @@
   font-size: large;
 }
 
+.credits{
+    text-align: right;
+    padding-right: 10px;
+    -webkit-text-stroke: 0px #d0c6ac;
+    font-size: xx-small;
+}
+
 #logogif {
     display: block;
     text-align: center;
