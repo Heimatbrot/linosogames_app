@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Page1 from './components/Page1';           // import the pages from components
+import Page1 from './components/Page1';
 import Page2 from './components/Page2';
 import Page3 from './components/Page3';
 import Page4 from './components/Page4';
@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   const pages = [
-    { id: 1, component: <Page1 /> },              // add pages, done!
+    { id: 1, component: <Page1 /> },
     { id: 2, component: <Page2 /> },
     { id: 3, component: <Page3 /> },
     { id: 4, component: <Page4 /> },
@@ -19,12 +19,12 @@ function App() {
 
   const [activePage, setActivePage] = useState(pages[0].id);
 
-  const handleClick = (pageId) => {
-    setActivePage(pageId);
+  const handleClick = (index) => {
+    setActivePage(pages[index].id);
   };
 
   const handleTitleClick = () => {
-    handleClick(pages[0].id);
+    handleClick(0);
   };
 
   return (
@@ -40,15 +40,13 @@ function App() {
         )}
       </nav>
       <div className="menu">
-        {pages.map((page) => (
+        {pages.map((page, index) => (
           <button
-            onClick={() => handleClick(page.id)}
-            className="links"
-            style={{
-              color: activePage === page.id ? '#eeeeee' : '#333',
-            }}
+            key={page.id}
+            onClick={() => handleClick(index)}
+            className={`links icon-button ${page.id === activePage ? 'selected' : ''}`}
           >
-            P{page.id}
+            {/* empty button */}
           </button>
         ))}
       </div>
