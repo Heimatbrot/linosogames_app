@@ -9,7 +9,7 @@ body {
   background-color: transparent; /* remove black status bar */
   overflow: show; /* stop scrolling */
   background-color: #f1ede3;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 code {
