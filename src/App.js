@@ -7,6 +7,7 @@ import Page5 from './components/Page5';
 import Page6 from './components/Page6';
 import './App.css';
 
+
 function App() {
   const pages = [
     { id: 1, component: <Page1 /> },

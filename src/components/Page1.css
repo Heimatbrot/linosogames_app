@@ -19,9 +19,19 @@
   font-family: 'patua_oneregular';
   -webkit-text-stroke: 1px #d0c6ac;
   }
+
 .intro_caption{
   -webkit-text-stroke: 1px #d0c6ac;
   font-size: large;
+}
+
+#logogif {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    padding: 10px;
 }
   
 h3 {
