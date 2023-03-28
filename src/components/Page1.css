@@ -17,11 +17,11 @@
   color:#f1ede3;
   font-size: x-large;
   font-family: 'patua_oneregular';
-  -webkit-text-stroke: 1px #d0c6ac;
+  -webkit-text-stroke: 1px #f1ede3;
   }
 
 .intro_caption{
-  -webkit-text-stroke: 0.5px #d0c6ac;
+  -webkit-text-stroke: 0.5px #f1ede3;
   font-size: large;
 }
 

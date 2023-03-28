@@ -1,0 +1,107 @@
+#content {
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.intro {
+    background-color: #d0c6ac;
+    font-size: x-large;
+    font-weight: 100;
+    font-family: 'patua_oneregular';
+    color:#515151;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.accordion {
+    background-color: #dbd3bf;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #d0c6ac;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #d0c6ac;
+    display: none;
+    overflow: hidden;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+
+.formhead{
+  text-align: center;
+  padding: auto;
+}
+
+.forminput{
+  text-align: left;
+  padding: auto;
+  background-color: #f1ede3;
+  border-radius: 5px;
+  color: #444;
+  border-color: #444;
+  border-style: solid 1px;
+}
+
+.formtext {
+  text-align: left;
+  border-color: #444;
+  padding: auto;
+  background-color: #f1ede3;
+  border-radius: 5px;
+  min-width: 80%;
+  max-width: 97%;
+  min-height: 9rem;
+  align-self: center;
+  color: #444;
+  border-style: solid 2px;
+}
+
+.formlayout {
+  background-color: #dbd3bf;
+  padding: 2%;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #444;
+  border-radius: 5px;
+}
+
+.formbutton {
+  background-color: #f1ede3;
+  border-radius: 5px;
+  color: #444;
+  font-weight: bold;
+  width: 8rem;
+  height: 2rem;
+  font-size: large;
+  border-style: solid 1px;
+  border-color: #444;
+}
+
+.formbutton:hover {
+  background-color: #f1f1f1;
+  border-style: solid 1px;
+  border-color: #444;
+}
+
+.panel.show {
+    display: block;
+  }
