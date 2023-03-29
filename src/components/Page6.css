@@ -1,0 +1,29 @@
+#contentparticipants {
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.intro {
+    background-color: #d0c6ac;
+    font-size: x-large;
+    font-weight: 100;
+    font-family: 'patua_oneregular';
+    color:#515151;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+#linosominigame{
+    display: none;
+}
+#linososhotgame{
+    display: none;
+}
+
+.selectionbutton{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}

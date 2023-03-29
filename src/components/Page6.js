@@ -1,4 +1,21 @@
 import React from "react";
+import "./Page6.css";
+
+function linosominigame() {
+  document.getElementById("scoreboard").style.display = "none"
+  document.getElementById("linosominigame").style.display = "block"
+}
+
+function linososhotgame() {
+  document.getElementById("scoreboard").style.display = "none"
+  document.getElementById("linososhotgame").style.display = "block"
+}
+
+function back(){
+  document.getElementById("scoreboard").style.display = "block"
+  document.getElementById("linososhotgame").style.display = "none"
+  document.getElementById("linosominigame").style.display = "none"
+}
 
 function Page6() {
   var password;
@@ -29,9 +46,28 @@ function Page6() {
 
 
   return (
-    <div>
-      <h1>This is Page 6</h1>
-      <p>Welcome to Page 6</p>
+    <div id="contentparticipants">
+      <div id="scoreboard">
+        <section class="intro">
+          <h1>TEILNEHMERBEREICH</h1>
+          <p>let the games begin!</p>
+        </section>
+
+        <br></br>
+        <h1>coming soon</h1>
+        <button onClick={linosominigame} className="selectionbutton">Linoso Minigame</button>
+        <button onClick={linososhotgame} className="selectionbutton">Linoso Shotgame</button>
+      </div>
+
+      <div id="linosominigame">
+        <h1>coming soon</h1>
+        <button onClick={back} className="selectionbutton">zurück</button>
+      </div>
+
+      <div id="linososhotgame">
+        <h1>coming soon</h1>
+        <button onClick={back} className="selectionbutton">zurück</button>
+      </div>
     </div>
   );
 }
