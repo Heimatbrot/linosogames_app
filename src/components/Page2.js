@@ -12,7 +12,9 @@ function Page2() {
 
         <h3>2022</h3>
           <p>Sean (1), Jana (1), Valerio (1)</p>
-          <h3>2023</h3>
+        <h3>2023</h3>
+          <p>Linus (1), Nicole (1), Marc (1)</p>
+          <h3>2024</h3>
           <p style={{ fontStyle: "italic" }}>noch nicht ausgetragen</p>
     </div>
   );
